@@ -8,10 +8,9 @@ updates from Python, TypeScript, or Java. No desktop tooling, no brittle overlay
 - Run identical workflows across stacks thanks to SDK parity and shared documentation.
 - Start immediately; the SDKs can request anonymous access, then scale up with real API tokens when you’re ready.
 
-<video controls autoplay loop muted playsinline width="720">
-  <source src="media/pdfdancer-demo.mp4" type="video/mp4" />
-  PDFDancer demo showing pixel-perfect edits
-</video>
+![PDFDancer demo showing pixel-perfect edits](media/pdfdancer-demo.gif)
+
+[Watch the full-resolution MP4](media/pdfdancer-demo.mp4)
 
 ---
 

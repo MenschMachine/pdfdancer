@@ -10,7 +10,7 @@ updates from Python, TypeScript, or Java. No desktop tooling, no brittle overlay
 
 ![PDFDancer demo showing pixel-perfect edits](media/pdfdancer-demo.gif)
 
-[Watch the full-resolution MP4](media/pdfdancer-demo.mp4)
+[Watch the full-resolution Demo](https://www.pdfdancer.com/demo)
 
 ---
 
@@ -22,7 +22,8 @@ updates from Python, TypeScript, or Java. No desktop tooling, no brittle overlay
   first-party content rather than stamped annotations.
 - **Smart fonts & graphics** – Built-in font catalog, custom TTF uploads, and ML-assisted glyph matching keep typography
   consistent; vector APIs expose paths, strokes, fills, and Form XObjects for advanced layouts.
-- **Forms + data workflows** – Inspect, validate, fill, or reset AcroForm fields at scale, complete with snapshots so you
+- **Forms + data workflows** – Inspect, validate, fill, or reset AcroForm fields at scale, complete with snapshots so
+  you
   can diff before/after payloads.
 - **Production ready** – Session-level auth, configurable timeouts/retries, audit-friendly logs, and optional custom
   base URLs support enterprise deployments.
@@ -95,12 +96,16 @@ implementation("com.pdfdancer.client:pdfdancer-client-java:0.1.2")
 - `pdfdancer-api-docs` – Docusaurus site that renders the unified SDK/API documentation and deploys it to GitHub Pages.
   [MenschMachine/pdfdancer-api-docs](https://github.com/MenschMachine/pdfdancer-api-docs)
 - `pdfdancer-client-java` – JVM SDK with fluent selectors/builders, strict validation, and export helpers for any
-  server-side or desktop workload. [MenschMachine/pdfdancer-client-java](https://github.com/MenschMachine/pdfdancer-client-java)
+  server-side or desktop
+  workload. [MenschMachine/pdfdancer-client-java](https://github.com/MenschMachine/pdfdancer-client-java)
 - `pdfdancer-client-python` – Python 3.10+ client mirroring the same object model, context managers, and structured
   exceptions. [MenschMachine/pdfdancer-client-python](https://github.com/MenschMachine/pdfdancer-client-python)
 - `pdfdancer-client-python-examples` – Bite-sized Python recipes that cover text, page, image, snapshot, and form
-  workflows out of the box. [MenschMachine/pdfdancer-client-python-examples](https://github.com/MenschMachine/pdfdancer-client-python-examples)
+  workflows out of the
+  box. [MenschMachine/pdfdancer-client-python-examples](https://github.com/MenschMachine/pdfdancer-client-python-examples)
 - `pdfdancer-client-typescript` – TypeScript SDK for Node.js and browser apps with retry/timeout controls, streaming
-  helpers, and ergonomic builders. [MenschMachine/pdfdancer-client-typescript](https://github.com/MenschMachine/pdfdancer-client-typescript)
+  helpers, and ergonomic
+  builders. [MenschMachine/pdfdancer-client-typescript](https://github.com/MenschMachine/pdfdancer-client-typescript)
 - `pdfdancer-client-typescript-examples` – TypeScript/TSX scripts mirroring the Python cookbook for quick demos and CI
-  smoke tests. [MenschMachine/pdfdancer-client-typescript-examples](https://github.com/MenschMachine/pdfdancer-client-typescript-examples)
+  smoke
+  tests. [MenschMachine/pdfdancer-client-typescript-examples](https://github.com/MenschMachine/pdfdancer-client-typescript-examples)

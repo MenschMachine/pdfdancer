@@ -1,6 +1,8 @@
 # PDFDancer
 
-**The editing API for PDFs you didn’t create.** Open any PDF you receive, target the exact paragraph, line, glyph, vector, or form field you need, and commit real edits from Python, TypeScript, or Java—no template rebuilds, no overlay tricks, no designer involved. ML-backed font recommendations/substitutions keep typography intact even when the original font files are missing.
+**"I can finally edit PDFs like I edit JSON."**
+
+Point at the paragraph you need, replace text, tweak fonts, modify vectors. Works on PDFs you didn't create. No templates, no overlays, no graphic designers in the loop.
 
 This repo is the developer landing page for the PDFDancer ecosystem.
 
@@ -10,6 +12,36 @@ This repo is the developer landing page for the PDFDancer ecosystem.
 ![PDFDancer demo showing pixel-perfect edits](media/pdfdancer-demo.gif)
 
 🎥 Full walkthrough: watch the high-resolution demo at [pdfdancer.com/demo](https://www.pdfdancer.com/demo).
+
+---
+
+## Quick start
+
+**Python:**
+```python
+from pdfdancer import PDFDancer
+
+with PDFDancer.open(pdf_data="contract.pdf") as pdf:
+    heading = pdf.page(0).select_paragraphs_starting_with("Total Amount:")[0]
+    heading.edit().replace("$1,500").apply()
+    pdf.save("updated.pdf")
+```
+
+**TypeScript:**
+```typescript
+const pdf = await PDFDancer.open('contract.pdf');
+const heading = await pdf.page(0).selectParagraphsStartingWith('Total Amount:');
+await heading[0].edit().replace('$1,500').apply();
+await pdf.save('updated.pdf');
+```
+
+**Java:**
+```java
+PDFDancer pdf = PDFDancer.createSession("contract.pdf");
+pdf.page(0).selectParagraphsStartingWith("Total Amount:").get(0)
+    .edit().replace("$1,500").apply();
+pdf.save("updated.pdf");
+```
 
 ---
 
@@ -48,6 +80,14 @@ This repo is the developer landing page for the PDFDancer ecosystem.
 
 ---
 
+## Technical details
+
+- **SDKs:** Python 3.10+, TypeScript/Node.js 20+, Java 11+
+- **Self-hosted:** Available for enterprise with custom endpoint configuration
+- **Font Support:** Type1, TrueType, OpenType with ML-powered matching for subset restrictions
+
+---
+
 ## Getting started
 
 Skip straight to the [PDFDancer Getting Started guide](https://docs.pdfdancer.com) for SDK installation, auth, and first-edit walkthroughs.
@@ -71,11 +111,17 @@ Skip straight to the [PDFDancer Getting Started guide](https://docs.pdfdancer.co
 
 ---
 
+## FAQ
+
+Common questions about PDFDancer's capabilities and limitations: [pdfdancer.com/#faq](https://www.pdfdancer.com/#faq)
+
+---
+
 ## Open-source ecosystem
 
 - `pdfdancer-api-docs` – Unified SDK/API docs rendered with Docusaurus and deployed to GitHub Pages. [MenschMachine/pdfdancer-api-docs](https://github.com/MenschMachine/pdfdancer-api-docs)
-- `pdfdancer-client-java` – JVM SDK exposing fluent selectors, validation, and exports for servers or desktops. [MenschMachine/pdfdancer-client-java](https://github.com/MenschMachine/pdfdancer-client-java)
-- `pdfdancer-client-python` – Python 3.10+ SDK mirroring the object model, context managers, and structured exceptions. [MenschMachine/pdfdancer-client-python](https://github.com/MenschMachine/pdfdancer-client-python)
+- `pdfdancer-client-java` ![Maven](https://img.shields.io/badge/Maven-0.1.1-blue) – JVM SDK exposing fluent selectors, validation, and exports for servers or desktops. [MenschMachine/pdfdancer-client-java](https://github.com/MenschMachine/pdfdancer-client-java)
+- `pdfdancer-client-python` ![PyPI](https://img.shields.io/badge/PyPI-0.2.21-blue) – Python 3.10+ SDK mirroring the object model, context managers, and structured exceptions. [MenschMachine/pdfdancer-client-python](https://github.com/MenschMachine/pdfdancer-client-python)
 - `pdfdancer-client-python-examples` – Bite-sized Python recipes covering text, page, image, snapshot, and form flows. [MenschMachine/pdfdancer-client-python-examples](https://github.com/MenschMachine/pdfdancer-client-python-examples)
-- `pdfdancer-client-typescript` – TypeScript SDK for Node.js and browsers with retry/timeout controls, streaming helpers, and ergonomic builders. [MenschMachine/pdfdancer-client-typescript](https://github.com/MenschMachine/pdfdancer-client-typescript)
+- `pdfdancer-client-typescript` ![npm](https://img.shields.io/badge/npm-1.0.15-blue) – TypeScript SDK for Node.js and browsers with retry/timeout controls, streaming helpers, and ergonomic builders. [MenschMachine/pdfdancer-client-typescript](https://github.com/MenschMachine/pdfdancer-client-typescript)
 - `pdfdancer-client-typescript-examples` – TypeScript/TSX scripts mirroring the Python cookbook for demos and CI smoke tests. [MenschMachine/pdfdancer-client-typescript-examples](https://github.com/MenschMachine/pdfdancer-client-typescript-examples)

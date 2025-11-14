@@ -6,7 +6,9 @@
 
 </div>
 
-**Edit text in any real-world PDF. Even ones you didn’t create.**
+**Stop fighting PDFs. Start editing them.**
+
+**Edit text in any real-world PDF—even ones you didn’t create. Pixel-perfect. No corruption.**
 
 **"I can finally edit PDFs like I edit JSON."**
 
@@ -68,7 +70,7 @@ pdf.save("updated.pdf");
 
 ### Add PDFDancer to your AI coding assistant
 
-One command to install the SDK, then start prompting your AI (Claude Code, Cursor, etc.) to edit real-world PDFs in code.
+One command. Then start prompting your AI (Claude Code, Cursor, etc.) to edit real-world PDFs. That’s it.
 
 ---
 

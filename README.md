@@ -6,10 +6,20 @@
 
 </div>
 
+**Edit text in any real-world PDF. Even ones you didn’t create.**
+
 **"I can finally edit PDFs like I edit JSON."**
 
-Point at the paragraph you need, replace text, tweak fonts, modify vectors. Works on PDFs you didn't create. No
+Point at the paragraph you need, replace text, tweak fonts, modify vectors. No
 templates, no overlays, no graphic designers in the loop.
+
+PDFDancer treats PDFs like a real document format, not a printer target:
+
+- Paragraphs and lines instead of glyph soup, so edits stay reflow-safe.
+- A selector DSL shared across SDKs for text, fonts, regions, and semantic IDs.
+- Direct access to vectors, images, and Form XObjects in code.
+- Forms as first-class APIs for automation and audits.
+- ML-driven font intelligence for missing or embedded fonts.
 
 This repo is the developer landing page for the PDFDancer ecosystem.
 
@@ -56,35 +66,41 @@ pdf.save("updated.pdf");
 
 ---
 
+### Add PDFDancer to your AI coding assistant
+
+One command to install the SDK, then start prompting your AI (Claude Code, Cursor, etc.) to edit real-world PDFs in code.
+
+---
+
 ## Why backend developers love it
 
-- **Edits the PDFs you already have** – PDFDancer treats PDFs like a document format, not a printer target. No begging
-  for the source file—even if the text is split into glyphs or vectorized runs.
-- **Selectors written for humans** – Target text via prefixes, regex, fonts, bounding boxes, or semantic IDs; the DSL is
-  identical in every SDK.
-- **Reflow-safe text + fonts** – Work at paragraph/line level instead of glyph soup. Built-in ML font
-  recommendations/substitutions keep embedded fonts editable while kerning and ligatures stay intact.
-- **ML font intelligence** – Automatic font matching, substitution, and upload helpers keep obscure or missing fonts
-  editable without breaking layout.
-- **Vector + asset control** – View and tweak paths, strokes, fills, Form XObjects, and embedded images directly in
+- **Stop begging for source files** – Edit text in real-world PDFs you didn’t create; PDFs are exposed as paragraphs,
+  lines, glyphs, vectors, and forms for direct edits.
+- **Selector DSL written for humans** – Target text via prefixes, regex, fonts, bounding boxes, or semantic IDs with
+  the same DSL in every SDK.
+- **Reflow-safe text and fonts** – Work at paragraph/line level instead of glyph soup so kerning, ligatures, and
+  spacing stay intact when you edit.
+- **Font intelligence built in** – ML-backed font matching, substitution, and upload helpers keep obscure or missing
+  fonts editable without breaking layout.
+- **Vector and asset control** – Inspect and tweak paths, strokes, fills, Form XObjects, and embedded images directly in
   code.
-- **Forms are first-class** – Enumerate, validate, fill, and reset AcroForm/XFA fields with before/after snapshots for
-  audits.
-- **Deploy on your terms** – Anonymous eval mode, hosted API, or self-hosted installs with auth scopes, retry knobs, and
-  structured logs.
+- **Forms as first-class APIs** – Enumerate, validate, fill, and reset AcroForm/XFA fields with before/after snapshots
+  for audits.
+- **Deploy on your terms** – Start in anonymous eval mode, then move to hosted API or self-hosted installs with auth
+  scopes, retry knobs, and structured logs.
 
 ---
 
 ## How it compares to legacy libraries
 
-| You expect…                   | PDFDancer delivers                                                                                            | Traditional tools do…                                                                       |
-|-------------------------------|---------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
-| Edit PDFs you didn’t author   | Treats PDFs like a document format: exposes paragraphs, lines, glyphs, vectors, forms for direct edits        | Force layout rebuilds, page shuffles, or annotation overlays                                |
-| Semantic selectors            | Text/regex/font/bounding-box selectors shared across SDKs                                                     | Expose low-level operator streams; you track glyph runs manually                            |
-| Layout-safe text & font edits | Paragraph-level reflow plus ML font recommendations keep spacing, kerning, ligatures, and custom fonts intact | Store text as disconnected glyphs, substitute fonts blindly, and break layout when you edit |
-| Font intelligence             | ML-powered matching/substitution plus managed uploads                                                         | Leave you to hunt down missing fonts manually                                               |
-| Vector & asset control        | Inspect/change paths, strokes, fills, Form XObjects, and embedded images                                      | Flatten vectors to bitmaps or punt to desktop design tools                                  |
-| Form automation               | Enumerate/fill/reset AcroForm & XFA with snapshots                                                            | Stop at basic checkbox filling; advanced logic still needs Acrobat                          |
+| You expect…                           | PDFDancer delivers                                                                                            | Traditional tools do…                                                                       |
+|---------------------------------------|---------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
+| Edit text in real-world PDFs you didn’t create | Treats PDFs like a document format: exposes paragraphs, lines, glyphs, vectors, forms for direct edits        | Force layout rebuilds, page shuffles, or annotation overlays                                |
+| Semantic selectors                    | Text/regex/font/bounding-box selectors shared across SDKs                                                     | Expose low-level operator streams; you track glyph runs manually                            |
+| Layout-safe text & font edits         | Paragraph-level reflow plus ML font recommendations keep spacing, kerning, ligatures, and custom fonts intact | Store text as disconnected glyphs, substitute fonts blindly, and break layout when you edit |
+| Font intelligence                     | ML-powered matching/substitution plus managed uploads                                                         | Leave you to hunt down missing fonts manually                                               |
+| Vector & asset control                | Inspect/change paths, strokes, fills, Form XObjects, and embedded images                                      | Flatten vectors to bitmaps or punt to desktop design tools                                  |
+| Form automation                       | Enumerate/fill/reset AcroForm & XFA with snapshots                                                            | Stop at basic checkbox filling; advanced logic still needs Acrobat                          |
 
 ---
 
@@ -120,10 +136,13 @@ first-edit walkthroughs.
 
 ## Access & pricing
 
-- **Free evaluation** – Spin up sessions without credentials; exported PDFs carry a subtle watermark so you can verify
-  workflows safely.
-- **Pro plans** – Upgrade for watermark-free exports, higher throughput, and extended retention. Pricing lives
-  on [pdfdancer.com/pricing](https://www.pdfdancer.com/#pricing) along with contact options for enterprise deployments.
+**Start free. Scale when ready.**
+
+- **Free evaluation** – No signup, no credit card. Start coding against the API immediately; exported PDFs carry a
+  subtle watermark so you can verify workflows safely.
+- **Pro and self-hosted** – Upgrade for watermark-free exports, higher throughput, extended retention, and self-hosted
+  deployments. Pricing lives on [pdfdancer.com/pricing](https://www.pdfdancer.com/#pricing) along with contact options
+  for enterprise deployments.
 
 ---
 

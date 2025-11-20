@@ -189,3 +189,28 @@ Common questions about PDFDancer's capabilities and limitations: [pdfdancer.com/
   builders. [MenschMachine/pdfdancer-client-typescript](https://github.com/MenschMachine/pdfdancer-client-typescript)
 - `pdfdancer-client-typescript-examples` – TypeScript/TSX scripts mirroring the Python cookbook for demos and CI smoke
   tests. [MenschMachine/pdfdancer-client-typescript-examples](https://github.com/MenschMachine/pdfdancer-client-typescript-examples)
+
+---
+
+## All PDFDancer repositories
+
+| Repository | Visibility | Purpose |
+|------------|-----------|---------|
+| [`changelog`](https://github.com/MenschMachine/changelog) | Public | Generates weekly changelogs for the PDFDancer stack from linked repositories |
+| [`font-identifier`](https://github.com/MenschMachine/font-identifier) | Private | AI-powered font recognition using deep learning to identify fonts in images |
+| [`fonts`](https://github.com/MenschMachine/pdf-engine-fonts) | Private | Font collection and management for PDF processing |
+| [`pdfdancer`](https://github.com/MenschMachine/pdfdancer) | Public | Main developer landing page and ecosystem overview |
+| [`pdfdancer-api`](../pdfdancer-api) | Private | Micronaut REST API providing PDF processing capabilities via HTTP endpoints |
+| [`pdfdancer-api-docs`](https://github.com/MenschMachine/pdfdancer-api-docs) | Public | Unified documentation site built with Docusaurus for all SDKs |
+| [`pdfdancer-api-runtime`](https://github.com/MenschMachine/pdfdancer-api-runtime) | Private | Runtime environment and deployment configuration for the API |
+| [`pdfdancer-backend`](../pdfdancer-backend) | Private | Core PDF engine leveraging Apache PDFBox for analysis and extraction |
+| [`pdfdancer-client-java`](https://github.com/MenschMachine/pdfdancer-client-java) | Public | Official Java SDK with fluent API for PDF manipulation |
+| [`pdfdancer-client-java-examples`](https://github.com/MenschMachine/pdfdancer-client-java-examples) | Public | Working Java code examples demonstrating SDK usage patterns |
+| [`pdfdancer-client-python`](../pdfdancer-client-python) | Public | Official Python SDK with context managers and structured exceptions |
+| [`pdfdancer-client-python-examples`](https://github.com/MenschMachine/pdfdancer-client-python-examples) | Private | Bite-sized Python recipes for common PDF workflows |
+| [`pdfdancer-client-typescript`](../pdfdancer-client-typescript) | Public | Official TypeScript SDK for Node.js and browsers |
+| [`pdfdancer-client-typescript-examples`](https://github.com/MenschMachine/pdfdancer-client-typescript-examples) | Public | TypeScript code examples mirroring Python cookbook patterns |
+| [`pdfdancer-frontend`](../pdfdancer-frontend) | Private | Web-based frontend application for PDF editing |
+| [`pdfdancer-mcp`](https://github.com/MenschMachine/pdfdancer-mcp) | Public | Model Context Protocol server connecting PDFDancer to AI coding assistants |
+| [`pdfdancer-tools`](../pdfdancer-tools) | Private | Internal tooling and utilities for development and testing |
+| [`pdfdancer-www`](https://github.com/MenschMachine/pdfdancer-www) | Private | Marketing website built with Gatsby, React, and TypeScript |

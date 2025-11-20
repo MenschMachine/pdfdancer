@@ -203,7 +203,7 @@ Common questions about PDFDancer's capabilities and limitations: [pdfdancer.com/
 | [`pdfdancer-api`](../pdfdancer-api) | Private | Micronaut REST API providing PDF processing capabilities via HTTP endpoints |
 | [`pdfdancer-api-docs`](https://github.com/MenschMachine/pdfdancer-api-docs) | Public | Unified documentation site built with Docusaurus for all SDKs |
 | [`pdfdancer-api-runtime`](https://github.com/MenschMachine/pdfdancer-api-runtime) | Private | Runtime environment and deployment configuration for the API |
-| [`pdfdancer-backend`](../pdfdancer-backend) | Private | Core PDF engine leveraging Apache PDFBox for analysis and extraction |
+| [`pdfdancer-backend`](../pdfdancer-backend) | Private | Core PDF engine for analysis and extraction |
 | [`pdfdancer-client-java`](https://github.com/MenschMachine/pdfdancer-client-java) | Public | Official Java SDK with fluent API for PDF manipulation |
 | [`pdfdancer-client-java-examples`](https://github.com/MenschMachine/pdfdancer-client-java-examples) | Public | Working Java code examples demonstrating SDK usage patterns |
 | [`pdfdancer-client-python`](../pdfdancer-client-python) | Public | Official Python SDK with context managers and structured exceptions |

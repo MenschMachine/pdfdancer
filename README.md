@@ -185,7 +185,7 @@ Common questions about PDFDancer's capabilities and limitations: [pdfdancer.com/
 - `pdfdancer-client-typescript` ![npm](https://img.shields.io/badge/npm-1.0.21-blue) – TypeScript SDK for Node.js and
   browsers with retry/timeout controls, streaming helpers, and ergonomic
   builders. [MenschMachine/pdfdancer-client-typescript](https://github.com/MenschMachine/pdfdancer-client-typescript)
-- `pdfdancer-mcp` – Model Context Protocol server connecting PDFDancer to AI coding assistants like Claude Code and
+- `pdfdancer-mcp` ![npm](https://img.shields.io/badge/npm-0.1.2-blue) – Model Context Protocol server connecting PDFDancer to AI coding assistants like Claude Code and
   Cursor. [MenschMachine/pdfdancer-mcp](https://github.com/MenschMachine/pdfdancer-mcp)
 
 ---

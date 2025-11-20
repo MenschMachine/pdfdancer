@@ -179,16 +179,14 @@ Common questions about PDFDancer's capabilities and limitations: [pdfdancer.com/
 - `pdfdancer-client-java` ![Maven](https://img.shields.io/badge/Maven-0.1.8-blue) – JVM SDK exposing fluent selectors,
   validation, and exports for servers or
   desktops. [MenschMachine/pdfdancer-client-java](https://github.com/MenschMachine/pdfdancer-client-java)
-- `pdfdancer-client-python` ![PyPI](https://img.shields.io/badge/PyPI-0.2.21-blue) – Python 3.10+ SDK mirroring the
+- `pdfdancer-client-python` ![PyPI](https://img.shields.io/badge/PyPI-0.2.29-blue) – Python 3.10+ SDK mirroring the
   object model, context managers, and structured
   exceptions. [MenschMachine/pdfdancer-client-python](https://github.com/MenschMachine/pdfdancer-client-python)
-- `pdfdancer-client-python-examples` – Bite-sized Python recipes covering text, page, image, snapshot, and form
-  flows. [MenschMachine/pdfdancer-client-python-examples](https://github.com/MenschMachine/pdfdancer-client-python-examples)
-- `pdfdancer-client-typescript` ![npm](https://img.shields.io/badge/npm-1.0.15-blue) – TypeScript SDK for Node.js and
+- `pdfdancer-client-typescript` ![npm](https://img.shields.io/badge/npm-1.0.21-blue) – TypeScript SDK for Node.js and
   browsers with retry/timeout controls, streaming helpers, and ergonomic
   builders. [MenschMachine/pdfdancer-client-typescript](https://github.com/MenschMachine/pdfdancer-client-typescript)
-- `pdfdancer-client-typescript-examples` – TypeScript/TSX scripts mirroring the Python cookbook for demos and CI smoke
-  tests. [MenschMachine/pdfdancer-client-typescript-examples](https://github.com/MenschMachine/pdfdancer-client-typescript-examples)
+- `pdfdancer-mcp` – Model Context Protocol server connecting PDFDancer to AI coding assistants like Claude Code and
+  Cursor. [MenschMachine/pdfdancer-mcp](https://github.com/MenschMachine/pdfdancer-mcp)
 
 ---
 

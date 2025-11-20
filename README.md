@@ -6,11 +6,11 @@
 
 </div>
 
-**Stop fighting PDFs. Start editing them.**
+**PDF used to be read-only. We fixed that.**
 
-**Edit text in any real-world PDF—even ones you didn’t create. Pixel-perfect. No corruption.**
+**Edit PDFs at a higher level: text, fonts, graphics - all preserved.**
 
-**"I can finally edit PDFs like I edit JSON."**
+**Pixel-perfect. No corruption. No fighting the format.**
 
 Point at the paragraph you need, replace text, tweak fonts, modify vectors. No
 templates, no overlays, no graphic designers in the loop.
@@ -138,13 +138,16 @@ first-edit walkthroughs.
 
 ## Access & pricing
 
-**Start free. Scale when ready.**
+**Start Free. Scale When Ready.**
 
-- **Free evaluation** – No signup, no credit card. Start coding against the API immediately; exported PDFs carry a
-  subtle watermark so you can verify workflows safely.
-- **Pro and self-hosted** – Upgrade for watermark-free exports, higher throughput, extended retention, and self-hosted
-  deployments. Pricing lives on [pdfdancer.com/pricing](https://www.pdfdancer.com/#pricing) along with contact options
-  for enterprise deployments.
+No signup. No API key. Just start coding. Upgrade removes watermarks.
+
+- **Free** – Unlimited PDFs, unlimited API calls, all features. Exported PDFs carry a watermark so you can verify
+  workflows safely.
+- **Pro** – Everything in Free plus no watermarks and email support. Pricing
+  at [pdfdancer.com/pricing](https://www.pdfdancer.com/#pricing).
+- **Enterprise** – Everything in Pro plus self-hosting/on-premise licensing, dedicated support, and onboarding. Contact
+  options at [pdfdancer.com/pricing](https://www.pdfdancer.com/#pricing).
 
 ---
 

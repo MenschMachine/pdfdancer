@@ -176,7 +176,7 @@ Common questions about PDFDancer's capabilities and limitations: [pdfdancer.com/
 
 - `pdfdancer-api-docs` – Unified SDK/API docs rendered with Docusaurus and deployed to GitHub
   Pages. [MenschMachine/pdfdancer-api-docs](https://github.com/MenschMachine/pdfdancer-api-docs)
-- `pdfdancer-client-java` ![Maven](https://img.shields.io/badge/Maven-0.1.1-blue) – JVM SDK exposing fluent selectors,
+- `pdfdancer-client-java` ![Maven](https://img.shields.io/badge/Maven-0.1.8-blue) – JVM SDK exposing fluent selectors,
   validation, and exports for servers or
   desktops. [MenschMachine/pdfdancer-client-java](https://github.com/MenschMachine/pdfdancer-client-java)
 - `pdfdancer-client-python` ![PyPI](https://img.shields.io/badge/PyPI-0.2.21-blue) – Python 3.10+ SDK mirroring the

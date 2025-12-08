@@ -72,6 +72,37 @@ pdf.save("updated.pdf");
 
 One command. Then start prompting your AI (Claude Code, Cursor, etc.) to edit real-world PDFs. That’s it.
 
+```shell
+claude mcp add pdfdancer -- npx -y @pdfdancer/pdfdancer-mcp
+```
+
+OR
+
+<a href="cursor://anysphere.cursor-deeplink/mcp/install?name=pdfdancer&config=eyJjb21tYW5kIjoibnB4IC15IEBwZGZkYW5jZXIvcGRmZGFuY2VyLW1jcCJ9" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Install%20in-Cursor-blue?style=for-the-badge&logo=cursor" alt="Install in Cursor" />
+</a>
+
+OR
+
+See all installation instructions at [pdfdancer.com/quickstart](https://www.pdfdancer.com/quick-start/#setup-guide).
+
+
+---
+
+
+---
+
+## Examples
+
+Checkout our example repositories for more code samples and use cases.
+
+[![Python](https://img.shields.io/badge/Python-Examples-blue?logo=python&logoColor=white)](https://github.com/MenschMachine/pdfdancer-client-python-examples)
+
+[![TypeScript](https://img.shields.io/badge/TypeScript-Examples-blue?logo=typescript&logoColor=white)](https://github.com/MenschMachine/pdfdancer-client-typescript-examples)
+
+[![Java](https://img.shields.io/badge/Java-Examples-blue?logo=openjdk&logoColor=white)](https://github.com/MenschMachine/pdfdancer-client-java-examples)
+
+
 ---
 
 ## Why backend developers love it
@@ -95,14 +126,14 @@ One command. Then start prompting your AI (Claude Code, Cursor, etc.) to edit re
 
 ## How it compares to legacy libraries
 
-| You expect…                           | PDFDancer delivers                                                                                            | Traditional tools do…                                                                       |
-|---------------------------------------|---------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
+| You expect…                                    | PDFDancer delivers                                                                                            | Traditional tools do…                                                                       |
+|------------------------------------------------|---------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
 | Edit text in real-world PDFs you didn’t create | Treats PDFs like a document format: exposes paragraphs, lines, glyphs, vectors, forms for direct edits        | Force layout rebuilds, page shuffles, or annotation overlays                                |
-| Semantic selectors                    | Text/regex/font/bounding-box selectors shared across SDKs                                                     | Expose low-level operator streams; you track glyph runs manually                            |
-| Layout-safe text & font edits         | Paragraph-level reflow plus ML font recommendations keep spacing, kerning, ligatures, and custom fonts intact | Store text as disconnected glyphs, substitute fonts blindly, and break layout when you edit |
-| Font intelligence                     | ML-powered matching/substitution plus managed uploads                                                         | Leave you to hunt down missing fonts manually                                               |
-| Vector & asset control                | Inspect/change paths, strokes, fills, Form XObjects, and embedded images                                      | Flatten vectors to bitmaps or punt to desktop design tools                                  |
-| Form automation                       | Enumerate/fill/reset AcroForm & XFA with snapshots                                                            | Stop at basic checkbox filling; advanced logic still needs Acrobat                          |
+| Semantic selectors                             | Text/regex/font/bounding-box selectors shared across SDKs                                                     | Expose low-level operator streams; you track glyph runs manually                            |
+| Layout-safe text & font edits                  | Paragraph-level reflow plus ML font recommendations keep spacing, kerning, ligatures, and custom fonts intact | Store text as disconnected glyphs, substitute fonts blindly, and break layout when you edit |
+| Font intelligence                              | ML-powered matching/substitution plus managed uploads                                                         | Leave you to hunt down missing fonts manually                                               |
+| Vector & asset control                         | Inspect/change paths, strokes, fills, Form XObjects, and embedded images                                      | Flatten vectors to bitmaps or punt to desktop design tools                                  |
+| Form automation                                | Enumerate/fill/reset AcroForm & XFA with snapshots                                                            | Stop at basic checkbox filling; advanced logic still needs Acrobat                          |
 
 ---
 
@@ -185,30 +216,31 @@ Common questions about PDFDancer's capabilities and limitations: [pdfdancer.com/
 - `pdfdancer-client-typescript` ![npm](https://img.shields.io/badge/npm-1.0.21-blue) – TypeScript SDK for Node.js and
   browsers with retry/timeout controls, streaming helpers, and ergonomic
   builders. [MenschMachine/pdfdancer-client-typescript](https://github.com/MenschMachine/pdfdancer-client-typescript)
-- `pdfdancer-mcp` ![npm](https://img.shields.io/badge/npm-0.1.2-blue) – Model Context Protocol server connecting PDFDancer to AI coding assistants like Claude Code and
+- `pdfdancer-mcp` ![npm](https://img.shields.io/badge/npm-0.1.2-blue) – Model Context Protocol server connecting
+  PDFDancer to AI coding assistants like Claude Code and
   Cursor. [MenschMachine/pdfdancer-mcp](https://github.com/MenschMachine/pdfdancer-mcp)
 
 ---
 
 ## All PDFDancer repositories
 
-| Repository | Visibility | Purpose |
-|------------|-----------|---------|
-| [`changelog`](https://github.com/MenschMachine/changelog) | Public | Generates weekly changelogs for the PDFDancer stack from linked repositories |
-| [`font-identifier`](https://github.com/MenschMachine/font-identifier) | Private | AI-powered font recognition using deep learning to identify fonts in images |
-| [`fonts`](https://github.com/MenschMachine/pdf-engine-fonts) | Private | Font collection and management for PDF processing |
-| [`pdfdancer`](https://github.com/MenschMachine/pdfdancer) | Public | Main developer landing page and ecosystem overview |
-| [`pdfdancer-api`](https://github.com/MenschMachine/pdfdancer-api) | Private | Micronaut REST API providing PDF processing capabilities via HTTP endpoints |
-| [`pdfdancer-api-docs`](https://github.com/MenschMachine/pdfdancer-api-docs) | Public | Unified documentation site built with Docusaurus for all SDKs |
-| [`pdfdancer-api-runtime`](https://github.com/MenschMachine/pdfdancer-api-runtime) | Private | Runtime environment and deployment configuration for the API |
-| [`pdfdancer-backend`](https://github.com/MenschMachine/pdfdancer-backend) | Private | Core PDF engine for analysis and extraction |
-| [`pdfdancer-client-java`](https://github.com/MenschMachine/pdfdancer-client-java) | Public | Official Java SDK with fluent API for PDF manipulation |
-| [`pdfdancer-client-java-examples`](https://github.com/MenschMachine/pdfdancer-client-java-examples) | Public | Working Java code examples demonstrating SDK usage patterns |
-| [`pdfdancer-client-python`](https://github.com/MenschMachine/pdfdancer-client-python) | Public | Official Python SDK with context managers and structured exceptions |
-| [`pdfdancer-client-python-examples`](https://github.com/MenschMachine/pdfdancer-client-python-examples) | Public | Bite-sized Python recipes for common PDF workflows |
-| [`pdfdancer-client-typescript`](https://github.com/MenschMachine/pdfdancer-client-typescript) | Public | Official TypeScript SDK for Node.js and browsers |
-| [`pdfdancer-client-typescript-examples`](https://github.com/MenschMachine/pdfdancer-client-typescript-examples) | Public | TypeScript code examples mirroring Python cookbook patterns |
-| [`pdfdancer-frontend`](https://github.com/MenschMachine/pdfdancer-frontend) | Private | Web-based frontend application for PDF editing |
-| [`pdfdancer-mcp`](https://github.com/MenschMachine/pdfdancer-mcp) | Public | Model Context Protocol server connecting PDFDancer to AI coding assistants |
-| [`pdfdancer-tools`](https://github.com/MenschMachine/pdfdancer-tools) | Private | Internal tooling and utilities for development and testing |
-| [`pdfdancer-www`](https://github.com/MenschMachine/pdfdancer-www) | Private | Marketing website built with Gatsby, React, and TypeScript |
+| Repository                                                                                                      | Visibility | Purpose                                                                      |
+|-----------------------------------------------------------------------------------------------------------------|------------|------------------------------------------------------------------------------|
+| [`changelog`](https://github.com/MenschMachine/changelog)                                                       | Public     | Generates weekly changelogs for the PDFDancer stack from linked repositories |
+| [`font-identifier`](https://github.com/MenschMachine/font-identifier)                                           | Private    | AI-powered font recognition using deep learning to identify fonts in images  |
+| [`fonts`](https://github.com/MenschMachine/pdf-engine-fonts)                                                    | Private    | Font collection and management for PDF processing                            |
+| [`pdfdancer`](https://github.com/MenschMachine/pdfdancer)                                                       | Public     | Main developer landing page and ecosystem overview                           |
+| [`pdfdancer-api`](https://github.com/MenschMachine/pdfdancer-api)                                               | Private    | Micronaut REST API providing PDF processing capabilities via HTTP endpoints  |
+| [`pdfdancer-api-docs`](https://github.com/MenschMachine/pdfdancer-api-docs)                                     | Public     | Unified documentation site built with Docusaurus for all SDKs                |
+| [`pdfdancer-api-runtime`](https://github.com/MenschMachine/pdfdancer-api-runtime)                               | Private    | Runtime environment and deployment configuration for the API                 |
+| [`pdfdancer-backend`](https://github.com/MenschMachine/pdfdancer-backend)                                       | Private    | Core PDF engine for analysis and extraction                                  |
+| [`pdfdancer-client-java`](https://github.com/MenschMachine/pdfdancer-client-java)                               | Public     | Official Java SDK with fluent API for PDF manipulation                       |
+| [`pdfdancer-client-java-examples`](https://github.com/MenschMachine/pdfdancer-client-java-examples)             | Public     | Working Java code examples demonstrating SDK usage patterns                  |
+| [`pdfdancer-client-python`](https://github.com/MenschMachine/pdfdancer-client-python)                           | Public     | Official Python SDK with context managers and structured exceptions          |
+| [`pdfdancer-client-python-examples`](https://github.com/MenschMachine/pdfdancer-client-python-examples)         | Public     | Bite-sized Python recipes for common PDF workflows                           |
+| [`pdfdancer-client-typescript`](https://github.com/MenschMachine/pdfdancer-client-typescript)                   | Public     | Official TypeScript SDK for Node.js and browsers                             |
+| [`pdfdancer-client-typescript-examples`](https://github.com/MenschMachine/pdfdancer-client-typescript-examples) | Public     | TypeScript code examples mirroring Python cookbook patterns                  |
+| [`pdfdancer-frontend`](https://github.com/MenschMachine/pdfdancer-frontend)                                     | Private    | Web-based frontend application for PDF editing                               |
+| [`pdfdancer-mcp`](https://github.com/MenschMachine/pdfdancer-mcp)                                               | Public     | Model Context Protocol server connecting PDFDancer to AI coding assistants   |
+| [`pdfdancer-tools`](https://github.com/MenschMachine/pdfdancer-tools)                                           | Private    | Internal tooling and utilities for development and testing                   |
+| [`pdfdancer-www`](https://github.com/MenschMachine/pdfdancer-www)                                               | Private    | Marketing website built with Gatsby, React, and TypeScript                   |

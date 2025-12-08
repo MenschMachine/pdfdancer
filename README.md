@@ -68,9 +68,11 @@ pdf.save("updated.pdf");
 
 ---
 
-### Add PDFDancer to your AI coding assistant
+## Quick start using the pdfdancer mcp server
 
 One command. Then start prompting your AI (Claude Code, Cursor, etc.) to edit real-world PDFs. That’s it.
+
+Add PDFDancer to your AI coding assistant:
 
 ```shell
 claude mcp add pdfdancer -- npx -y @pdfdancer/pdfdancer-mcp

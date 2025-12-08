@@ -90,8 +90,6 @@ See all installation instructions at [pdfdancer.com/quickstart](https://www.pdfd
 ---
 
 
----
-
 ## Examples
 
 Checkout our example repositories for more code samples and use cases.

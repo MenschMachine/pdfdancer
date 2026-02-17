@@ -6,7 +6,7 @@
 
 </div>
 
-**PDF used to be read-only. We fixed that.**
+## **PDF used to be read-only. We fixed that.**
 
 **Edit PDFs at a higher level: text, fonts, graphics - all preserved.**
 

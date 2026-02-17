@@ -6,11 +6,9 @@
 
 </div>
 
-## **PDF used to be read-only. We fixed that.**
+## PDF used to be read-only. We fixed that.
 
 **Edit PDFs at a higher level: text, fonts, graphics - all preserved.**
-
-**Pixel-perfect. No corruption. No fighting the format.**
 
 Point at the paragraph you need, replace text, tweak fonts, modify vectors. No
 templates, no overlays, no graphic designers in the loop.
@@ -189,7 +187,7 @@ No signup. No API key. Just start coding. Upgrade removes watermarks.
 - **Blog** – [pdfdancer.com/blog](https://www.pdfdancer.com/blog/?utm_source=github&utm_medium=readme&utm_campaign=pdfdancer) covers deep dives, release notes, and customer
   workflows.
 - **Changelog** – [pdfdancer.com/changelog](https://www.pdfdancer.com/changelog/?utm_source=github&utm_medium=readme&utm_campaign=pdfdancer) tracks what's new.
-- **Status & incidents** – [status.pdfdancer.com](https://status.pdfdancer.com) for uptime and incident reports.
+- **Status & incidents** – [status.pdfdancer.com](https://status.pdfdancer.com?utm_source=github&utm_medium=readme&utm_campaign=pdfdancer) for uptime and incident reports.
 - **Roadmap** – Follow along at [docs.pdfdancer.com/roadmap](https://docs.pdfdancer.com/roadmap/?utm_source=github&utm_medium=readme&utm_campaign=pdfdancer) for upcoming
   milestones.
 - **Talk with us** – Ping your success channel or email `support@pdfdancer.com` for onboarding, roadmap input, or

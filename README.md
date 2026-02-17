@@ -207,13 +207,13 @@ Common questions about PDFDancer's capabilities and limitations: [pdfdancer.com/
 
 - `pdfdancer-api-docs` – Unified SDK/API docs rendered with Docusaurus and deployed to GitHub
   Pages. [MenschMachine/pdfdancer-api-docs](https://github.com/MenschMachine/pdfdancer-api-docs)
-- `pdfdancer-client-java` ![Maven](https://img.shields.io/badge/Maven-0.3.2-blue) – JVM SDK exposing fluent selectors,
+- `pdfdancer-client-java` ![Maven](https://img.shields.io/badge/Maven-0.2.5-blue) – JVM SDK exposing fluent selectors,
   validation, and exports for servers or
   desktops. [MenschMachine/pdfdancer-client-java](https://github.com/MenschMachine/pdfdancer-client-java)
-- `pdfdancer-client-python` ![PyPI](https://img.shields.io/badge/PyPI-0.3.2-blue) – Python 3.10+ SDK mirroring the
+- `pdfdancer-client-python` ![PyPI](https://img.shields.io/badge/PyPI-0.3.7-blue) – Python 3.10+ SDK mirroring the
   object model, context managers, and structured
   exceptions. [MenschMachine/pdfdancer-client-python](https://github.com/MenschMachine/pdfdancer-client-python)
-- `pdfdancer-client-typescript` ![npm](https://img.shields.io/badge/npm-2.0.2-blue) – TypeScript SDK for Node.js and
+- `pdfdancer-client-typescript` ![npm](https://img.shields.io/badge/npm-2.0.6-blue) – TypeScript SDK for Node.js and
   browsers with retry/timeout controls, streaming helpers, and ergonomic
   builders. [MenschMachine/pdfdancer-client-typescript](https://github.com/MenschMachine/pdfdancer-client-typescript)
 - `pdfdancer-mcp` ![npm](https://img.shields.io/badge/npm-0.2.2-blue) – Model Context Protocol server connecting

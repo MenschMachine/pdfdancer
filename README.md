@@ -2,7 +2,7 @@
 
 # PDFDancer
 
-<img src="media/logo-orange-512h.webp" alt="PDFDancer" width="120">
+<img src="media/logo-silver-512h.webp" alt="PDFDancer" width="120">
 
 </div>
 
@@ -25,13 +25,13 @@ PDFDancer treats PDFs like a real document format, not a printer target:
 
 This repo is the developer landing page for the PDFDancer ecosystem.
 
-- Product tour: [pdfdancer.com](https://www.pdfdancer.com)
+- Product tour: [pdfdancer.com](https://www.pdfdancer.com?utm_source=github&utm_medium=readme&utm_campaign=pdfdancer)
 - Docs + SDK surface: [
-  `pdfdancer-api-docs`](https://github.com/MenschMachine/pdfdancer-api-docs) / [docs.pdfdancer.com](https://docs.pdfdancer.com)
+  `pdfdancer-api-docs`](https://github.com/MenschMachine/pdfdancer-api-docs) / [docs.pdfdancer.com](https://docs.pdfdancer.com?utm_source=github&utm_medium=readme&utm_campaign=pdfdancer)
 
 ![PDFDancer demo showing pixel-perfect edits](media/pdfdancer-demo.gif)
 
-🎥 Full walkthrough: watch the high-resolution demo at [pdfdancer.com/demo](https://www.pdfdancer.com/demo).
+🎥 Full walkthrough: watch the high-resolution demo at [pdfdancer.com/demo](https://www.pdfdancer.com/demo?utm_source=github&utm_medium=readme&utm_campaign=pdfdancer).
 
 ---
 
@@ -86,7 +86,7 @@ OR
 
 OR
 
-See all installation instructions at [pdfdancer.com/quickstart](https://www.pdfdancer.com/quick-start/#setup-guide).
+See all installation instructions at [pdfdancer.com/quickstart](https://www.pdfdancer.com/quick-start/?utm_source=github&utm_medium=readme&utm_campaign=pdfdancer#setup-guide).
 
 
 ---
@@ -162,7 +162,7 @@ Checkout our example repositories for more code samples and use cases.
 
 ## Getting started
 
-Skip straight to the [PDFDancer Getting Started guide](https://docs.pdfdancer.com) for SDK installation, auth, and
+Skip straight to the [PDFDancer Getting Started guide](https://docs.pdfdancer.com?utm_source=github&utm_medium=readme&utm_campaign=pdfdancer) for SDK installation, auth, and
 first-edit walkthroughs.
 
 ---
@@ -176,21 +176,21 @@ No signup. No API key. Just start coding. Upgrade removes watermarks.
 - **Free** – Unlimited PDFs, unlimited API calls, all features. Exported PDFs carry a watermark so you can verify
   workflows safely.
 - **Pro** – Everything in Free plus no watermarks and email support. Pricing
-  at [pdfdancer.com/pricing](https://www.pdfdancer.com/#pricing).
+  at [pdfdancer.com/pricing](https://www.pdfdancer.com/?utm_source=github&utm_medium=readme&utm_campaign=pdfdancer#pricing).
 - **Enterprise** – Everything in Pro plus self-hosting/on-premise licensing, dedicated support, and onboarding. Contact
-  options at [pdfdancer.com/pricing](https://www.pdfdancer.com/#pricing).
+  options at [pdfdancer.com/pricing](https://www.pdfdancer.com/?utm_source=github&utm_medium=readme&utm_campaign=pdfdancer#pricing).
 
 ---
 
 ## Where to go next
 
-- **Complete API docs** – [`pdfdancer-api-docs`](https://docs.pdfdancer.com) houses the SDK references, guides, and the
+- **Complete API docs** – [`pdfdancer-api-docs`](https://docs.pdfdancer.com?utm_source=github&utm_medium=readme&utm_campaign=pdfdancer) houses the SDK references, guides, and the
   Getting Started walkthrough.
-- **Blog** – [pdfdancer.com/blog](https://www.pdfdancer.com/blog/) covers deep dives, release notes, and customer
+- **Blog** – [pdfdancer.com/blog](https://www.pdfdancer.com/blog/?utm_source=github&utm_medium=readme&utm_campaign=pdfdancer) covers deep dives, release notes, and customer
   workflows.
-- **Changelog** – [pdfdancer.com/changelog](https://www.pdfdancer.com/changelog/) tracks what's new.
+- **Changelog** – [pdfdancer.com/changelog](https://www.pdfdancer.com/changelog/?utm_source=github&utm_medium=readme&utm_campaign=pdfdancer) tracks what's new.
 - **Status & incidents** – [status.pdfdancer.com](https://status.pdfdancer.com) for uptime and incident reports.
-- **Roadmap** – Follow along at [docs.pdfdancer.com/roadmap](https://docs.pdfdancer.com/roadmap/) for upcoming
+- **Roadmap** – Follow along at [docs.pdfdancer.com/roadmap](https://docs.pdfdancer.com/roadmap/?utm_source=github&utm_medium=readme&utm_campaign=pdfdancer) for upcoming
   milestones.
 - **Talk with us** – Ping your success channel or email `support@pdfdancer.com` for onboarding, roadmap input, or
   self-hosted deployments.
@@ -199,7 +199,7 @@ No signup. No API key. Just start coding. Upgrade removes watermarks.
 
 ## FAQ
 
-Common questions about PDFDancer's capabilities and limitations: [pdfdancer.com/#faq](https://www.pdfdancer.com/#faq)
+Common questions about PDFDancer's capabilities and limitations: [pdfdancer.com/#faq](https://www.pdfdancer.com/?utm_source=github&utm_medium=readme&utm_campaign=pdfdancer#faq)
 
 ---
 
